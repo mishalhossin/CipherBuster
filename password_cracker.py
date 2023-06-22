@@ -1,10 +1,9 @@
 import string
 import itertools
-import time
 from multiprocessing import Pool, cpu_count
 from tqdm import tqdm
 
-charset = string.ascii_lowercase + string.ascii_uppercase + string.digits
+charset = string.ascii_lowercase + string.ascii_uppercase + string.digits + ' '
 
 max_length = 8
 
